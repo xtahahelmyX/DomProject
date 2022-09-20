@@ -1,7 +1,7 @@
-/* *{
+*{ 
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   background-color: grey;
 }
 
@@ -19,6 +19,32 @@ section{
   display: flex;
   grid-area: 1/3/1/9;
 }
+.product-name, .Pricename, .subtotal{
+  display: grid;
+  align-items: center;
+}
 .product-name{
   margin-right: 300px;
-} */
+  
+} 
+.Pricename{
+  margin-right: 150px;
+  
+}
+.section1{
+  grid-area: 2/3/2/9;
+  display: flex;
+  justify-content: last baseline;
+}
+.section1 h2{
+ margin-right: 150px;
+}
+.heart1{
+  margin-right: 160px;
+}
+.calc1{
+  display: flex;
+}
+.sub1 , .count1{
+  margin-right: 15px;
+}
