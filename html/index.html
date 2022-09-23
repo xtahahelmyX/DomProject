@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dom Project</title>
+  <link rel="stylesheet" href="/img/all.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -23,11 +24,11 @@
       <span class="material-symbols-outlined heart1">
         favorite
       </span>
-      <h2 class="price one">100</h2>
+      <h2 class="price one">$100</h2>
     <div class="section1btns">
       <div class="calc1">
-        <img src="/img/minus.png" height="35px" width="25px" alt="" class="sub1">
-        <h4 class="count1">0</h4>
+        <img src="/img/minus.png" height="35px" width="25px" alt="" class="sub1 subtraction">
+        <h4 class="count1 count">0</h4>
         <img src="/img/addition.png" height="20px" width="20px" alt="" class="sum1">
       </div>
         <button class="btn bone">Remove</button>
@@ -39,12 +40,13 @@
       <span class="material-symbols-outlined heart2">
         favorite
       </span>
-      <h2 class="price two">200</h2>
+      <h2 class="price two">$200</h2>
     <div class="section2btns">
       <div class="calc2">
-        <img src="/img/minus.png" height="35px" width="25px" alt="" class="sub2">
-        <h4 class="count2">0</h4>
-        <img src="/img/addition.png" height="20px" width="20px" alt="">
+        <img src="/img/minus.png" height="35px" width="25px" alt="" class="sub2 subtraction">
+        <h4 class="count2 count">0</h4>
+        <img src="/img/addition.png" height="20px" width="20px" alt=""
+        class="sum2">
       </div>
         <button class="btn btwo">Remove</button>
         <h4 class="totalprice ttwo">0</h4>
@@ -55,12 +57,13 @@
       <span class="material-symbols-outlined heart3">
         favorite
       </span>
-      <h2 class="price three">300</h2>
+      <h2 class="price three">$300</h2>
     <div class="section3btns">
       <div class="calc3">
-        <img src="/img/minus.png" height="35px" width="25px" alt="" class="sub3">
-        <h4 class="count3">0</h4>
-        <img src="/img/addition.png" height="20px" width="20px" alt="">
+        <img src="/img/minus.png" height="35px" width="25px" alt="" class="sub3 subtraction">
+        <h4 class="count3 count">0</h4>
+        <img src="/img/addition.png" height="20px" width="20px" alt=""
+        class="sum3">
       </div>
         <button class="btn bthree">Remove</button>
         <h4 class="totalprice tthree">0</h4>
@@ -68,7 +71,9 @@
     </div>
   </section>
   <footer>
-    <h2>Your Total = 0</h2>
+    <h2 class="totaltext">Your Total = 0</h2>
+    <button class="totalcalc">Calc</button>
   </footer>
+  <script src="/js/app.js"></script>
 </body>
 </html>

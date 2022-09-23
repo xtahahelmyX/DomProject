@@ -59,7 +59,17 @@ section{
 }
 .heart1{
   margin-right: 160px;
+  
 }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
 .calc1{
   display: flex;
 }
@@ -118,8 +128,18 @@ section{
 footer{
   padding-left: 250px;
   padding-bottom: 20px;
+  display: flex;
+}
+.totaltext{
+margin-right: 60px;
 }
 
+footer button {
+  color: white;
+  background-color: blue ;
+  padding: 5px 25px 5px 25px;
+  margin-bottom: 10px;
+}
 
 
 
